@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title>Cyber GitHub banner with typewriter name animation</title>
+  <desc>Dark cyberpunk profile banner with animated typewriter reveal for Swayam Jha.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#041108"/>
+      <stop offset="55%" stop-color="#030806"/>
+      <stop offset="100%" stop-color="#07150d"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#23ff8b"/>
+      <stop offset="50%" stop-color="#8afcc0"/>
+      <stop offset="100%" stop-color="#23ff8b"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="hardGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 9 -3" result="c"/>
+      <feMerge>
+        <feMergeNode in="c"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M 72 0 L 0 0 0 72" fill="none" stroke="#19ff7b" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="binary" width="36" height="36" patternUnits="userSpaceOnUse">
+      <text x="0" y="12" font-family="monospace" font-size="11" fill="#2cff86" fill-opacity=".18">1010</text>
+      <text x="18" y="30" font-family="monospace" font-size="11" fill="#2cff86" fill-opacity=".12">0110</text>
+    </pattern>
+
+    <clipPath id="panelClip">
+      <rect x="110" y="72" width="1380" height="360" rx="34" ry="34"/>
+    </clipPath>
+
+    <mask id="nameReveal" maskUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1600" height="500" fill="black"/>
+      <rect x="170" y="118" width="0" height="92" fill="white">
+        <animate id="revealAnim" attributeName="width" dur="4.8s" begin="0s;revealAnim.end+0.7s" values="0;0;420;420" keyTimes="0;0.18;0.72;1" fill="freeze"/>
+      </rect>
+      <rect x="170" y="118" width="8" height="92" fill="white">
+        <animate attributeName="x" dur="4.8s" begin="0s;revealAnim.end+0.7s" values="170;170;590;590" keyTimes="0;0.18;0.72;1" fill="freeze"/>
+      </rect>
+    </mask>
+
+    <style>
+      <![CDATA[
+        .mono { font-family: "SFMono-Regular","Consolas","Liberation Mono","Courier New",monospace; }
+        .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+        .title {
+          font: 800 72px/1.05 Inter, "Segoe UI", Arial, sans-serif;
+          letter-spacing: -1.6px;
+          fill: #ecfff5;
+        }
+        .role {
+          font: 700 24px/1.2 Inter, "Segoe UI", Arial, sans-serif;
+          fill: #59ff9b;
+          letter-spacing: .4px;
+        }
+        .sub {
+          font: 500 20px/1.5 Inter, "Segoe UI", Arial, sans-serif;
+          fill: rgba(226,255,238,.78);
+        }
+        .tiny {
+          font: 600 14px/1 monospace;
+          letter-spacing: 2.2px;
+          fill: rgba(102,255,158,.76);
+        }
+        .chipText {
+          font: 700 18px/1 monospace;
+          letter-spacing: 1.2px;
+          fill: #b8ffe0;
+        }
+        .terminal {
+          font: 500 18px/1.55 monospace;
+          fill: rgba(185,255,214,.84);
+        }
+        .scan {
+          animation: drift 10s linear infinite;
+        }
+        @keyframes drift {
+          from { transform: translateY(-28px); }
+          to { transform: translateY(28px); }
+        }
+        .blink {
+          animation: blink 0.9s steps(1, end) infinite;
+        }
+        @keyframes blink {
+          0%, 49% { opacity: 0; }
+          50%, 100% { opacity: 1; }
+        }
+        .pulse {
+          animation: pulse 3.8s ease-in-out infinite;
+        }
+        @keyframes pulse {
+          0%, 100% { opacity: .65; }
+          50% { opacity: 1; }
+        }
+        .float {
+          animation: float 7s ease-in-out infinite;
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-8px); }
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <rect width="1600" height="500" fill="url(#bgGrad)"/>
+  <rect width="1600" height="500" fill="url(#grid)"/>
+  <rect width="1600" height="500" fill="url(#binary)" class="scan" opacity=".55"/>
+
+  <g clip-path="url(#panelClip)">
+    <rect x="110" y="72" width="1380" height="360" rx="34" ry="34" fill="#07110a" fill-opacity=".68" stroke="#1cf979" stroke-opacity=".42" stroke-width="3"/>
+    <path d="M110 118 H1490" stroke="#23ff8b" stroke-opacity=".14" stroke-width="2"/>
+    <path d="M110 364 H1490" stroke="#23ff8b" stroke-opacity=".12" stroke-width="2"/>
+
+    <circle cx="88" cy="86" r="165" fill="#19ff7b" fill-opacity=".07"/>
+    <circle cx="1524" cy="430" r="122" fill="#19ff7b" fill-opacity=".07"/>
+
+    <g opacity=".45" filter="url(#hardGlow)">
+      <path d="M1250 94h190l26 26v232l-26 26h-190l-26-26V120z" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <path d="M1266 113h159" stroke="#2cff86" stroke-width="9" stroke-linecap="round"/>
+      <path d="M1266 143h138" stroke="#2cff86" stroke-width="9" stroke-linecap="round"/>
+      <path d="M1266 173h159" stroke="#2cff86" stroke-width="9" stroke-linecap="round"/>
+      <path d="M1266 203h122" stroke="#2cff86" stroke-width="9" stroke-linecap="round"/>
+      <path d="M1266 233h154" stroke="#2cff86" stroke-width="9" stroke-linecap="round"/>
+      <path d="M1266 263h100" stroke="#2cff86" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="1414" cy="309" r="14" fill="#2cff86"/>
+    </g>
+
+    <g opacity=".38" filter="url(#softGlow)">
+      <circle cx="1204" cy="244" r="104" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <circle cx="1204" cy="244" r="74" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <circle cx="1204" cy="244" r="44" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <path d="M1204 146V342M1106 244h196" stroke="#2cff86" stroke-width="1.5"/>
+      <path d="M1204 182l17 17-17 17-17-17z" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <path d="M1204 300l17-17-17-17-17 17z" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <path d="M1118 244l17 17 17-17-17-17z" fill="none" stroke="#2cff86" stroke-width="2"/>
+      <path d="M1290 244l-17 17-17-17 17-17z" fill="none" stroke="#2cff86" stroke-width="2"/>
+    </g>
+
+    <g opacity=".5">
+      <path d="M194 94h12m24 0h12m24 0h12" stroke="#2cff86" stroke-width="10" stroke-linecap="square"/>
+      <path d="M1388 412h12m24 0h12m24 0h12" stroke="#2cff86" stroke-width="10" stroke-linecap="square"/>
+      <text x="1270" y="106" class="tiny">SYSTEM STATUS • ONLINE</text>
+      <text x="118" y="236" class="tiny" transform="rotate(-90 118 236)">ACCESS GRANTED</text>
+      <text x="1490" y="304" class="tiny" transform="rotate(90 1490 304)">0X 7A 3F 2C 4D 6E</text>
+    </g>
+
+    <g filter="url(#softGlow)">
+      <text x="170" y="180" class="title" mask="url(#nameReveal)">Swayam Jha</text>
+      <rect x="168" y="191" width="430" height="4" fill="url(#neon)" opacity=".65"/>
+      <text x="170" y="238" class="role">Security Researcher • Web Pentesting • B.Tech CSE</text>
+      <text x="170" y="279" class="sub">Building cleaner tools, sharper recon, and fewer broken things.</text>
+    </g>
+
+    <g filter="url(#hardGlow)">
+      <g transform="translate(170 323)">
+        <rect x="0" y="0" width="182" height="50" rx="12" ry="12" fill="none" stroke="#2cff86" stroke-width="2"/>
+        <text x="26" y="32" class="chipText">RECON</text>
+        <path d="M23 25m-10 0a10 10 0 1 0 20 0a10 10 0 1 0-20 0" fill="none" stroke="#2cff86" stroke-width="2"/>
+        <path d="M23 25h10M23 15v20M13 25h20" stroke="#2cff86" stroke-width="2" stroke-linecap="round"/>
+      </g>
+
+      <g transform="translate(390 323)">
+        <rect x="0" y="0" width="216" height="50" rx="12" ry="12" fill="none" stroke="#2cff86" stroke-width="2"/>
+        <text x="46" y="32" class="chipText">BACKEND</text>
+        <path d="M22 19l-8 6 8 6m12-12l8 6-8 6" fill="none" stroke="#2cff86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <g transform="translate(646 323)">
+        <rect x="0" y="0" width="178" height="50" rx="12" ry="12" fill="none" stroke="#2cff86" stroke-width="2"/>
+        <text x="52" y="32" class="chipText">PYTHON</text>
+        <path d="M16 18h14l-9 7h9l-14 7" fill="none" stroke="#2cff86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <g opacity=".7" filter="url(#softGlow)">
+      <path d="M170 398h468" stroke="#2cff86" stroke-opacity=".2" stroke-width="2"/>
+      <text x="170" y="430" class="terminal">user@swayam ~ $ whoami</text>
+      <text x="170" y="458" class="terminal">&gt;&gt; building | breaking | learning</text>
+      <text x="170" y="486" class="terminal">user@swayam ~ $ <tspan class="blink">█</tspan></text>
+    </g>
+
+    <g opacity=".55">
+      <path d="M690 406h200" stroke="#2cff86" stroke-width="2" stroke-dasharray="4 8"/>
+      <rect x="714" y="406" width="8" height="48" fill="#2cff86" opacity=".45" class="pulse"/>
+      <rect x="736" y="388" width="8" height="66" fill="#2cff86" opacity=".25" class="pulse"/>
+      <rect x="758" y="398" width="8" height="56" fill="#2cff86" opacity=".36" class="pulse"/>
+      <rect x="780" y="380" width="8" height="74" fill="#2cff86" opacity=".22" class="pulse"/>
+      <rect x="802" y="394" width="8" height="60" fill="#2cff86" opacity=".4" class="pulse"/>
+      <rect x="824" y="372" width="8" height="82" fill="#2cff86" opacity=".28" class="pulse"/>
+      <rect x="846" y="400" width="8" height="54" fill="#2cff86" opacity=".35" class="pulse"/>
+      <rect x="868" y="386" width="8" height="68" fill="#2cff86" opacity=".26" class="pulse"/>
+      <rect x="890" y="394" width="8" height="60" fill="#2cff86" opacity=".38" class="pulse"/>
+    </g>
+  </g>
+
+  <rect x="110" y="72" width="1380" height="360" rx="34" ry="34" fill="none" stroke="#23ff8b" stroke-opacity=".22" stroke-width="1.5"/>
+</svg>
