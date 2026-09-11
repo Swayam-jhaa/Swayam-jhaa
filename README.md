@@ -1,72 +1,96 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=00F5D4&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=75&lines=swayam%40systems%3A~%24+whoami;Backend+Systems+Engineer+%26+Security+Researcher;swayam%40systems%3A~%24+.%2Fdeploy-systems.sh;Fail-Closed+Architectures+%E2%80%A2+ASM+%E2%80%A2+AI+Pipelines)](https://github.com/Swayam-jhaa)
+# Swayam Jha
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app)
+**Backend Systems & Security Engineer • Full-Stack Product Builder**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swayam-jha-520ba9312/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:swayamjhaofficial@gmail.com)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2400&pause=900&color=00F5D4&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=50&lines=Building+resilient+backend+architectures+%26+APIs;Offensive-security-aware+systems+engineering;Shipping+interactive+computer-vision+%26+web+apps)](https://github.com/Swayam-jhaa)
+
 </div>
 
-```bash
-┌──(swayam㉿systems)-[~]
-└─$ neofetch --profile
-```
+---
 
-```yaml
-identity   : Swayam Jha
-role       : Backend Systems Engineer & Security Researcher
-credo      : "Assume breach. Validate boundaries. Engineer fail-closed resilience."
-education  : B.Tech in Computer Science & Engineering
-location   : India
-focus      : Resilient REST APIs • Asynchronous Pipelines • Attack Surface Management
-current    : Smart India Hackathon 2026 Finalist Project (Predicta - PS170)
-```
+## ⚡ About Me
 
-```bash
-┌──(swayam㉿systems)-[~/flagships]
-└─$ ls -la --classify
-```
+I'm a **Backend Systems Engineer** and **Security Researcher** based in India, currently completing my B.Tech in Computer Science & Engineering. My primary focus is building resilient API architectures, automated attack surface management (ASM) pipelines, and statistical anomaly detection engines.
 
-| Directory | Tech Stack | Status / Links | System Architecture |
-| :--- | :--- | :---: | :--- |
-| **[`predicta/`](https://github.com/Swayam-jhaa/Predicta)** | `FastAPI` `Next.js` `NumPy` | [![Live](https://img.shields.io/badge/Live_App-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://predicta-bay.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Predicta) | **SIH 2026 (PS170)**: Component burn-in anomaly detection & parametric drift forecaster. |
-| **[`sentinel-scan/`](https://github.com/Swayam-jhaa/SENTINEL-SCAN)** | `AsyncIO` `FastAPI` `Docker` | [Repo](https://github.com/Swayam-jhaa/SENTINEL-SCAN) | Automated Attack Surface Management (ASM) & continuous reconnaissance prober. |
-| **[`apre/`](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine)** | `Python` `Multi-Agent` `LLM` | [![Live](https://img.shields.io/badge/Live_App-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://agentic-pentest-reporting-engine.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine) | Multi-agent engine synthesizing raw scanner output into enterprise audit reports. |
-| **[`stitchit/`](https://github.com/Swayam-jhaa/StitchIT)** | `Next.js 15` `Prisma` `Clerk` | [Repo](https://github.com/Swayam-jhaa/StitchIT) | Luxury bespoke tailoring & apparel platform with custom RBAC and admin portal. |
-| **[`cameracanvas/`](https://github.com/Swayam-jhaa/CameraCanvas)** | `React 19` `MediaPipe` `Canvas` | [![Live](https://img.shields.io/badge/Live_App-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://camera-canvas.vercel.app) • [Repo](https://github.com/Swayam-jhaa/CameraCanvas) | In-air gesture drawing whiteboard powered by 21-point skeletal tracking at 60 FPS. |
-| **[`aayusense/`](https://github.com/Swayam-jhaa/AayuSense)** | `Next.js 14` `Three.js` `Clerk` | [![Live](https://img.shields.io/badge/Live_App-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://aayu-sense.vercel.app) • [Repo](https://github.com/Swayam-jhaa/AayuSense) | Digital AYUSH healthcare platform with Electronic Tongue 6-Rasa taste diagnostics. |
+Having spent time in offensive security before focusing on backend development, I design systems with an **"Assume Breach"** and **fail-closed** mindset — treating input boundaries, auth lifecycles, and asynchronous queue resilience as first-class architectural concerns. Beyond security infrastructure, I also design and ship polished full-stack web products and interactive computer-vision applications.
 
-```bash
-┌──(swayam㉿systems)-[~/tech-stack]
-└─$ cat capabilities.env
-```
+---
 
-```ini
-# CORE LANGUAGES & RUNTIMES
-LANGUAGES       = ["Python 3.11+", "TypeScript", "JavaScript", "C++", "Bash"]
-
-# BACKEND ARCHITECTURES & APIS
-BACKEND_STACK   = ["FastAPI", "Next.js (App Router)", "Node.js", "Express", "Celery"]
-
-# PERSISTENCE & DATA PIPELINES
-DATABASE_TIER   = ["PostgreSQL", "Redis", "SQLite", "Prisma ORM", "SQLAlchemy"]
-
-# SECURITY AUDITING & RECON
-SECURITY_TOOLS  = ["OWASP Top 10", "Burp Suite", "Nmap", "Attack Surface Mgmt", "Linux"]
-```
-
-```bash
-┌──(swayam㉿systems)-[~]
-└─$ ./connect.sh --collaborate
-```
-
-```text
-  [●] Portfolio : https://portfolio-xi-one-35ege3b60f.vercel.app
-  [●] LinkedIn  : https://www.linkedin.com/in/swayam-jha-520ba9312/
-  [●] Email     : swayamjhaofficial@gmail.com
-```
+## 📸 Product Spotlight: In-Air Gesture Canvas
 
 <div align="center">
-  <sub>Engineered with precision • Built for resilience</sub>
+
+<a href="https://camera-canvas.vercel.app">
+  <img src="assets/camera-canvas.png" alt="CameraCanvas - Real-Time In-Air Gesture Whiteboard" width="85%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" />
+</a>
+
+<br />
+
+**[CameraCanvas](https://github.com/Swayam-jhaa/CameraCanvas)** — *In-browser touchless whiteboard powered by Google MediaPipe 21-point hand tracking at 60 FPS.*  
+[🌐 Launch Live Web App](https://camera-canvas.vercel.app) • [📦 View Source Code](https://github.com/Swayam-jhaa/CameraCanvas)
+
+</div>
+
+---
+
+## 🛡️ Systems, Security & Analytics
+
+Infrastructure tools, anomaly detectors, and reconnaissance platforms engineered for resilience and performance.
+
+| Project | Core Stack | Live Demo & Source | Summary |
+| :--- | :--- | :---: | :--- |
+| **[Predicta](https://github.com/Swayam-jhaa/Predicta)** | `FastAPI` `Next.js` `NumPy` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://predicta-bay.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Predicta) | **Smart India Hackathon 2026 (PS170)**: Component burn-in anomaly detection & parametric drift forecaster for aerospace electronics. |
+| **[SENTINEL-SCAN](https://github.com/Swayam-jhaa/SENTINEL-SCAN)** | `AsyncIO` `FastAPI` `Docker` | [Repo](https://github.com/Swayam-jhaa/SENTINEL-SCAN) | High-speed Attack Surface Management (ASM) & continuous reconnaissance prober using producer-consumer asyncio queues. |
+| **[APRE](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine)** | `Python` `Multi-Agent` `LLM` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://agentic-pentest-reporting-engine.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine) | Autonomous reporting framework converting raw scanner outputs (Nmap, Burp, ZAP) into enterprise audit reports. |
+| **[DeCognito](https://github.com/Swayam-jhaa/DeCognito)** | `FastAPI` `Celery` `Streamlit` | [Repo](https://github.com/Swayam-jhaa/DeCognito) | Modular OSINT intelligence aggregation engine unifying Sherlock username scans and Shodan infrastructure profiling. |
+| **[Recon-Lite](https://github.com/Swayam-jhaa/Recon-Lite)** | `Python CLI` `Concurrent` | [Repo](https://github.com/Swayam-jhaa/Recon-Lite) | Lightweight, multi-threaded CLI reconnaissance tool for rapid bug bounty and security audit engagements. |
+
+---
+
+## 🚀 Full-Stack Products & Interfaces
+
+User-facing web applications, digital health tools, and creative interfaces built with modern TypeScript ecosystems.
+
+| Product | Core Stack | Live Demo & Source | Summary |
+| :--- | :--- | :---: | :--- |
+| **[CameraCanvas](https://github.com/Swayam-jhaa/CameraCanvas)** | `React 19` `Next.js 15` `MediaPipe` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://camera-canvas.vercel.app) • [Repo](https://github.com/Swayam-jhaa/CameraCanvas) | Interactive touchless drawing canvas utilizing real-time computer-vision hand landmark tracking. |
+| **[StitchIT](https://github.com/Swayam-jhaa/StitchIT)** | `Next.js` `Prisma` `Clerk` `PostgreSQL` | [Repo](https://github.com/Swayam-jhaa/StitchIT) | Bespoke luxury apparel & custom tailoring platform with role-based access control and order quote workflows. |
+| **[AayuSense](https://github.com/Swayam-jhaa/AayuSense)** | `Next.js 14` `Three.js` `Clerk` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://aayu-sense.vercel.app) • [Repo](https://github.com/Swayam-jhaa/AayuSense) | Digital AYUSH health diagnostic portal featuring Electronic Tongue 6-Rasa taste profiling and adulteration detection. |
+| **[Portfolio](https://github.com/Swayam-jhaa/Portfolio)** | `HTML5` `Vanilla CSS` `JavaScript` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Portfolio) | Personal engineering portfolio with zero runtime dependencies, sub-50ms paint times, and custom animations. |
+
+---
+
+## 🛠️ Technical Capabilities
+
+- **Languages & Core Runtimes**: Python 3.11+, TypeScript, JavaScript (ESNext), C++, Bash / Shell
+- **Backend & APIs**: FastAPI, Next.js (App Router), Node.js, Express, Celery, RESTful API Architecture
+- **Databases & Persistence**: PostgreSQL, Redis, SQLite, Prisma ORM, SQLAlchemy
+- **Security & DevSecOps**: Attack Surface Management (ASM), OWASP Top 10, Burp Suite, Nmap, Docker, Linux Systems Administration
+
+---
+
+## 📈 Activity & Shipping Velocity
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Swayam-jhaa&theme=tokyonight&hide_border=true" alt="Swayam Jha's GitHub Streak" width="70%" />
+
+</div>
+
+---
+
+<div align="center">
+
+**Open to collaboration on backend architectures, security research, and high-impact engineering.**
+
+[![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swayam-jha-520ba9312/)
+[![View Live Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-00F5D4?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app)
+[![Send an Email](https://img.shields.io/badge/Email-swayamjhaofficial%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swayamjhaofficial@gmail.com)
+
 </div>
