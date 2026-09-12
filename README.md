@@ -2,96 +2,89 @@
 
 # Swayam Jha
 
-**Backend Systems & Security Engineer • Full-Stack Product Builder**
+### Backend & AI Systems Engineer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swayam-jha-520ba9312/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:swayamjhaofficial@gmail.com)
+*Engineering scalable backends, AI systems & security automation.*
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2400&pause=900&color=00F5D4&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=50&lines=Building+resilient+backend+architectures+%26+APIs;Offensive-security-aware+systems+engineering;Autonomous+cybersecurity+pipelines+%26+threat+intel;Shipping+interactive+computer-vision+%26+web+apps)](https://github.com/Swayam-jhaa)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0B1220?style=flat-square&logo=vercel&logoColor=66E3C4)](https://portfolio-xi-one-35ege3b60f.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1220?style=flat-square&logo=linkedin&logoColor=66E3C4)](https://www.linkedin.com/in/swayam-jha-520ba9312/)
+[![Email](https://img.shields.io/badge/Email-0B1220?style=flat-square&logo=gmail&logoColor=66E3C4)](mailto:swayamjhaofficial@gmail.com)
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=66E3C4&center=true&vCenter=true&repeat=true&width=760&height=46&lines=production+APIs+%E2%80%A2+async+workers+%E2%80%A2+reliable+data+flows;LLM-powered+retrieval+systems+%E2%80%A2+evaluation+%E2%80%A2+agentic+workflows;security-aware+engineering+from+the+inside+out" alt="Engineering focus" />
 
 </div>
 
 ---
 
-## ⚡ About Me
+## About Me
 
-I'm a **Backend Systems Engineer** and **Security Researcher** based in India, currently completing my B.Tech in Computer Science & Engineering. My primary focus is building resilient API architectures, automated attack surface management (ASM) pipelines, and statistical anomaly detection engines.
+I’m a backend engineer focused on production-oriented systems: reliable APIs, async architectures, data workflows, and infrastructure that holds up beyond the happy path. I build primarily with **Python, FastAPI, PostgreSQL, Redis, Docker**, and concurrency-first patterns.
 
-Having spent time in offensive security before focusing on backend development, I design systems with an **"Assume Breach"** and **fail-closed** mindset — treating input boundaries, auth lifecycles, and asynchronous queue resilience as first-class architectural concerns. Beyond security infrastructure, I also design and ship polished full-stack web products and interactive computer-vision applications.
+I’m expanding that systems foundation into AI engineering—designing practical LLM features around **RAG, embeddings, vector search, reranking, evaluation**, and **agentic workflows**. Security remains a differentiator in how I work: threat-aware boundaries, resilient queues, careful auth lifecycles, and automation that is useful in real environments.
 
 ---
 
-## 📸 Platform Spotlight: TechPulse Intelligence
+## Featured Build
 
 <div align="center">
 
 <a href="https://techpulse-intel.vercel.app">
-  <img src="assets/techpulse-dashboard.png" alt="TechPulse Intelligence — Autonomous Daily Cybersecurity & Tech Intelligence Platform" width="92%" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
+  <img src="assets/techpulse-dashboard.png" alt="TechPulse Intelligence dashboard" width="92%" />
 </a>
+
+**[TechPulse Intelligence](https://github.com/Swayam-jhaa/TechPulse-Intelligence)**
+
+An autonomous intelligence pipeline that turns security advisories, exploit likelihood signals, AI research, and developer trends into a daily, usable briefing—combining data collection, AI-assisted synthesis, and a production-facing delivery layer.
+
+[Live dashboard](https://techpulse-intel.vercel.app) · [Source code](https://github.com/Swayam-jhaa/TechPulse-Intelligence)
+
+</div>
+
+---
+
+## Selected Systems
+
+| Build | Engineering focus | Stack |
+| :--- | :--- | :--- |
+| **[SENTINEL-SCAN](https://github.com/Swayam-jhaa/SENTINEL-SCAN)** | Async attack-surface discovery using producer–consumer queues for continuous reconnaissance. | `Python` `AsyncIO` `FastAPI` `Docker` |
+| **[APRE](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine)** | Agentic reporting workflow that converts raw security scanner output into structured audit reports. | `Python` `LLM` `Multi-Agent` |
+| **[Predicta](https://github.com/Swayam-jhaa/Predicta)** | Anomaly detection and parametric-drift forecasting for aerospace electronics. | `FastAPI` `NumPy` `Next.js` |
+| **[DeCognito](https://github.com/Swayam-jhaa/DeCognito)** | OSINT aggregation platform for digital-footprint discovery and infrastructure profiling. | `FastAPI` `Celery` `Streamlit` |
+| **[CameraCanvas](https://github.com/Swayam-jhaa/CameraCanvas)** | Real-time computer-vision drawing interface driven by hand-landmark tracking. | `React` `Next.js` `MediaPipe` |
+
+---
+
+## Currently Exploring
+
+Building a deeper AI-systems practice around:
+
+`RAG` · `vector search` · `embeddings` · `reranking` · `LLM evaluation` · `agentic workflows` · `AI infrastructure`
+
+The goal is not a demo-only chatbot layer—it’s retrieval and automation systems that are observable, evaluated, secure, and maintainable in production.
+
+---
+
+## Technical Stack
+
+| Area | Tools & concepts |
+| :--- | :--- |
+| **Languages** | Python, TypeScript, JavaScript, C++, Bash / Shell |
+| **Backend & Systems** | FastAPI, REST APIs, async architectures, PostgreSQL, Redis, SQLAlchemy, Celery, background workers |
+| **AI Engineering** | LLM integration, RAG, embeddings, vector search, reranking, evaluation, agentic systems |
+| **Infrastructure** | Docker, Linux, API deployment, observability-minded workflows, CI/CD foundations |
+| **Security** | Attack Surface Management, OWASP Top 10, reconnaissance automation, Burp Suite, Nmap, secure system design |
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Swayam-jhaa&theme=tokyonight&hide_border=true" alt="Swayam Jha's GitHub streak" width="72%" />
 
 <br />
 
-**[TechPulse Intelligence](https://github.com/Swayam-jhaa/TechPulse-Intelligence)** — *Autonomous Daily Cybersecurity & Tech Intelligence Platform analyzing CISA KEV advisories, EPSS exploit vectors, AI research, and GitHub developer trends with Gemini 2.5 Flash.*  
-[🌐 Launch Live Intel Dashboard](https://techpulse-intel.vercel.app) • [📦 View Source Code](https://github.com/Swayam-jhaa/TechPulse-Intelligence)
+Open to collaborating on backend platforms, AI systems, and security-aware automation.
 
-</div>
-
----
-
-## 🛡️ Systems, Security & Analytics
-
-Infrastructure tools, anomaly detectors, and reconnaissance platforms engineered for resilience and performance.
-
-| Project | Core Stack | Live Demo & Source | Summary |
-| :--- | :--- | :---: | :--- |
-| **[TechPulse Intelligence](https://github.com/Swayam-jhaa/TechPulse-Intelligence)** | `Next.js` `Python` `Gemini AI` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://techpulse-intel.vercel.app) • [Repo](https://github.com/Swayam-jhaa/TechPulse-Intelligence) | Autonomous daily cybersecurity & tech intelligence platform with live CVE/EPSS telemetry and 3D audio synthesizer. |
-| **[Predicta](https://github.com/Swayam-jhaa/Predicta)** | `FastAPI` `Next.js` `NumPy` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://predicta-bay.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Predicta) | **Smart India Hackathon 2026 (PS170)**: Component burn-in anomaly detection & parametric drift forecaster for aerospace electronics. |
-| **[SENTINEL-SCAN](https://github.com/Swayam-jhaa/SENTINEL-SCAN)** | `AsyncIO` `FastAPI` `Docker` | [Repo](https://github.com/Swayam-jhaa/SENTINEL-SCAN) | High-speed Attack Surface Management (ASM) & continuous reconnaissance prober using producer-consumer asyncio queues. |
-| **[APRE](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine)** | `Python` `Multi-Agent` `LLM` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://agentic-pentest-reporting-engine.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Agentic-Pentest-Reporting-Engine) | Autonomous reporting framework converting raw scanner outputs (Nmap, Burp, ZAP) into enterprise audit reports. |
-| **[DeCognito](https://github.com/Swayam-jhaa/DeCognito)** | `FastAPI` `Celery` `Streamlit` | [Repo](https://github.com/Swayam-jhaa/DeCognito) | Modular OSINT intelligence aggregation engine unifying Sherlock username scans and Shodan infrastructure profiling. |
-| **[Recon-Lite](https://github.com/Swayam-jhaa/Recon-Lite)** | `Python CLI` `Concurrent` | [Repo](https://github.com/Swayam-jhaa/Recon-Lite) | Lightweight, multi-threaded CLI reconnaissance tool for rapid bug bounty and security audit engagements. |
-
----
-
-## 🚀 Full-Stack Products & Interfaces
-
-User-facing web applications, digital health tools, and creative interfaces built with modern TypeScript ecosystems.
-
-| Product | Core Stack | Live Demo & Source | Summary |
-| :--- | :--- | :---: | :--- |
-| **[CameraCanvas](https://github.com/Swayam-jhaa/CameraCanvas)** | `React 19` `Next.js 15` `MediaPipe` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://camera-canvas.vercel.app) • [Repo](https://github.com/Swayam-jhaa/CameraCanvas) | Interactive touchless drawing canvas utilizing real-time computer-vision hand landmark tracking at 60 FPS. |
-| **[StitchIT](https://github.com/Swayam-jhaa/StitchIT)** | `Next.js` `Prisma` `Clerk` `PostgreSQL` | [Repo](https://github.com/Swayam-jhaa/StitchIT) | Bespoke luxury apparel & custom tailoring platform with role-based access control and order quote workflows. |
-| **[AayuSense](https://github.com/Swayam-jhaa/AayuSense)** | `Next.js 14` `Three.js` `Clerk` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://aayu-sense.vercel.app) • [Repo](https://github.com/Swayam-jhaa/AayuSense) | Digital AYUSH health diagnostic portal featuring Electronic Tongue 6-Rasa taste profiling and adulteration detection. |
-| **[Portfolio](https://github.com/Swayam-jhaa/Portfolio)** | `HTML5` `Vanilla CSS` `JavaScript` | [![Live App](https://img.shields.io/badge/Demo-00F5D4?style=flat-square&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app) • [Repo](https://github.com/Swayam-jhaa/Portfolio) | Personal engineering portfolio with zero runtime dependencies, sub-50ms paint times, and custom animations. |
-
----
-
-## 🛠️ Technical Capabilities
-
-- **Languages & Core Runtimes**: Python 3.11+, TypeScript, JavaScript (ESNext), C++, Bash / Shell
-- **Backend & APIs**: FastAPI, Next.js (App Router), Node.js, Express, Celery, RESTful API Architecture
-- **Databases & Persistence**: PostgreSQL, Redis, SQLite, Prisma ORM, SQLAlchemy
-- **Security & DevSecOps**: Attack Surface Management (ASM), OWASP Top 10, Burp Suite, Nmap, Docker, Linux Systems Administration
-
----
-
-## 📈 Activity & Shipping Velocity
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Swayam-jhaa&theme=tokyonight&hide_border=true" alt="Swayam Jha's GitHub Streak" width="70%" />
-
-</div>
-
----
-
-<div align="center">
-
-**Open to collaboration on backend architectures, security research, and high-impact engineering.**
-
-[![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swayam-jha-520ba9312/)
-[![View Live Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-00F5D4?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-xi-one-35ege3b60f.vercel.app)
-[![Send an Email](https://img.shields.io/badge/Email-swayamjhaofficial%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swayamjhaofficial@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect-0B1220?style=for-the-badge&logo=linkedin&logoColor=66E3C4)](https://www.linkedin.com/in/swayam-jha-520ba9312/)
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-0B1220?style=for-the-badge&logo=vercel&logoColor=66E3C4)](https://portfolio-xi-one-35ege3b60f.vercel.app)
 
 </div>
